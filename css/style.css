@@ -100,6 +100,18 @@ body{
     width: 380px;
     background: linear-gradient(#245EDC,#3F8EF8);
     border-radius:8px 8px 0 0 ;
-    border-bottom: 3px solid #15428A;
+    border-bottom: 2px solid #15428A;
     border-right: 3px solid #123b9c;
+    border-top: 2px solid #3f8ef8;
+}
+
+.botmenu {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    bottom: 0;
+    background: linear-gradient(#3f8ef8,#245EDC);
+    border-right: 3px solid #15428A;
+    border-bottom: 2px solid #15428A;
+    border-top: 2px solid #15428A;
 }
