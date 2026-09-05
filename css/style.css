@@ -49,7 +49,7 @@ body{
     background-repeat: no-repeat;
     background-color: transparent;
     width: 120px;
-    height: 40px;
+    height: 30px;
     border: none;
     cursor: pointer;
     flex: 0 0 auto;
@@ -87,8 +87,19 @@ body{
     position: fixed;
     width: 380px;
     height: 450px;
-    bottom: 40px;
+    bottom: 30px;
     background-color: #ffff;
     left: 0px;
     border-radius: 8px 8px 0 0;
+    border-right: 3px solid #15428A;
+}
+
+.topmenu {
+    position: fixed;
+    height: 60px;
+    width: 380px;
+    background: linear-gradient(#245EDC,#3F8EF8);
+    border-radius:8px 8px 0 0 ;
+    border-bottom: 3px solid #15428A;
+    border-right: 3px solid #123b9c;
 }
