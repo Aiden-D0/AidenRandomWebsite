@@ -92,8 +92,8 @@ body{
     left: 0px;
     border-radius: 8px 8px 0 0;
     border-right: 3px solid #15428A;
+    display: none;
 }
-
 .topmenu {
     position: fixed;
     height: 60px;
@@ -114,4 +114,14 @@ body{
     border-right: 3px solid #15428A;
     border-bottom: 2px solid #15428A;
     border-top: 2px solid #15428A;
+}
+
+.sidemenu {
+    position: absolute;
+    background-color: #D3E5FA;
+    width: 190px;
+    height: 350px;
+    bottom: 40px;
+    right: 0px;
+    border-left: 1px solid #17458F;
 }
