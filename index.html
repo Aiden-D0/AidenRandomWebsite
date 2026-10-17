@@ -11,14 +11,36 @@
 
 <body class="background">
     <div class="Terminal">
-        <div class="Terminaltop">C:\Users\Aiden
-            <button>x</button>
-            <button>□</button>
-            <button>_</button>
-            <div>
-Microsoft Windows XP [Version 5.1.2600]
-(C) Copyright 1985-2001 Microsoft Corp.</div>
+        <div class="Terminaltop">
+            <div>C:\Users\Aiden</div>
+            <div class="tab-button-block">
+                <button class="bbutton tab-button">□</button>
+                <button class="bbutton tab-button">-</button>
+                <button class="Ebutton tab-button">x</button>
+            </div>
         </div>
+        <div class="Terminal-content">
+            <div class="Terminal-title">
+                Microsoft Windows XP [Version 5.1.2600]
+                (C) Copyright 1985-2001 Microsoft Corp.
+            </div>
+            <pre class="ascii-art">
+    /   \     |  | |       \ |   ____||  \ |  |     /  __  \      /       |
+   /  ^  \    |  | |  .--.  ||  |__   |   \|  |    |  |  |  |    |   (----`
+  /  /_\  \   |  | |  |  |  ||   __|  |  . `  |    |  |  |  |     \   \    
+ /  _____  \  |  | |  '--'  ||  |____ |  |\   |    |  `--'  | .----)   |   
+/__/     \__\ |__| |_______/ |_______||__| \__|     \______/  |_______/    
+</pre>
+
+
+            <div id="history" class="history-log"></div>
+
+            <div class="input-line">
+                <span class="prompt" id="prompt-label">C:\Documents and Settings\Admin:</span>
+                <input type="text" id="cmd" class="cmd-input" autocomplete="off" spellcheck="false" autofocus />
+            </div>
+        </div>
+    </div>
     </div>
     <div class="container">
         <div class="Startmenu" id="Startmenu">
@@ -32,4 +54,5 @@ Microsoft Windows XP [Version 5.1.2600]
         </div>
     </div>
 </body>
+
 </html>
