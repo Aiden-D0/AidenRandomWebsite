@@ -17,3 +17,4 @@ function toggleStart() {
         menu.style.display = "block";
     }
 }
+
